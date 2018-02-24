@@ -3,5 +3,6 @@
 		public function __construct() {
 			parent::__construct();
 			$this->load->model('news_models');
+			$this->load->helper('url_helper');
 		}
 	}
